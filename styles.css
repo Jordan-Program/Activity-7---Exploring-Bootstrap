@@ -41,15 +41,10 @@ body
 }
 
 
-#footer
+.footer
 {
     color: white;
     background-color: #000000;
-    font-style: normal;
-    font-family: Arial, sans-serif;
-    font-weight: normal;
     text-align: center;
-    width: 100%;
-    padding: 1px;
-    
+    padding: 3px;
 }
