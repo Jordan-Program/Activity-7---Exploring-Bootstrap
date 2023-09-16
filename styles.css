@@ -41,10 +41,29 @@ body
 }
 
 
-.footer
+.squre-box
+{
+    
+    min-height: 400px;
+
+}
+
+.squre-box-services
+{
+    min-width: 200px;
+    min-height: 200px;
+
+}
+
+#footer
 {
     color: white;
     background-color: #000000;
+    font-style: normal;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
     text-align: center;
-    padding: 3px;
+    width: 100%;
+    padding: 1px;
+    
 }
