@@ -55,6 +55,64 @@ body
 
 }
 
+.card .img-fit
+{
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.card
+{
+    height: 100%;
+}
+
+.card-body
+{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+
+}
+
+.card-text
+{
+    flex-grow: 1;
+}
+
+@media (max-width: 767.98px)
+{
+    .card .img-fit
+    {
+        aspect-ratio: 1.45 / 1;
+    }
+}
+
+
+.carousel-item
+{
+    height:60vw;
+    
+}
+
+.container-inner
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 600px)
+{
+    .carousel-item
+    {
+        height:100vw;
+        position: relative;
+    }
+}
+
+
 #footer
 {
     color: white;
